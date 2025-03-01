@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Carregar os dados dos arquivos de aquecimento e resfriamento
-arquivo_aquecimento = "Dados/Aquecimento.txt"
-arquivo_resfriamento = "Dados/Resfriamento.txt"
+arquivo_aquecimento = "dados/Aquecimento.txt"
+arquivo_resfriamento = "dados/Resfriamento.txt"
 
 # Carregar os valores de temperatura registrados ao longo do tempo
 dados_aquecimento = np.loadtxt(arquivo_aquecimento)
